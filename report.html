@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Result</title>
+    <link rel="stylesheet" href="report.css">
+  </head>
+  <body>
+    <h1>Result</h1>
+    <div>
+      <form>
+        <label for="">Student Image </label><br />
+        <!-- <input type="image" src="/ReportSubmit/blank-profile-picture-973460_1280.webp" alt=""> -->
+        <input type="text" id="image" placeholder="Enter Image URL" /><br />
+        <label for="">Student Name</label><br />
+        <input type="text" id="name" placeholder="Enter name" /><br />
+        <label for="">Batch</label><br />
+        <select id="batch">
+          <option value="2016">2016</option>
+          <option value="2017">2017</option>
+          <option value="2018">2018</option></select
+        ><br />
+        <label for="">DSA Score</label><br />
+        <input
+          type="number"
+          id="dsa"
+          placeholder="Enter DSA score out of 10"
+        /><br />
+        <label for="">Skill</label><br />
+        <input
+          type="number"
+          id="skill"
+          placeholder="Enter skill score out of 10"
+        /><br />
+        <label for="">Coding</label><br />
+        <input
+          type="number"
+          id="coding"
+          placeholder="Enter coding score out of 10"
+        /><br />
+        <input type="submit" />
+      </form>
+      <table>
+        <thead>
+          <tr>
+            <th>Image</th>
+            <th>Name</th>
+            <th>Batch</th>
+            <th>DSA</th>
+            <th>Skill</th>
+            <th>Coding</th>
+            <th>Percentage %</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </body>
+</html>
+<script src="report.js"></script>
